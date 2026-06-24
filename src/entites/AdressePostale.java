@@ -13,4 +13,7 @@ public class AdressePostale {
         this.codePostaux = codePostaux; // Mon attribut codePostaux reçoit le paramètre codePostaux
         this.villes = villes; // Mon attribut villes reçoit le paramètre villes
     }
+    @Override public String toString () {
+        return numero + " " + libelleRue + ", " + codePostaux + " " + villes;
+    }
 }

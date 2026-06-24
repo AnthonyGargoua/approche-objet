@@ -28,5 +28,7 @@ public class TestPersonne {
 
         // Appel de la méthode afficher() pour vérifier la bonne saisie des informations de la personne
         p3.afficher();
+
+        System.out.println(p1.getAdressePostale());
     }
 }
