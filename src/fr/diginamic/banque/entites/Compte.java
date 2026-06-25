@@ -4,10 +4,10 @@ public class Compte {
 
     // Je crée mes attributs privés
     private String numeroDeCompte;
-    private int soldeDuCompte;
+    private double soldeDuCompte;
 
     // Je crée mon constructeur
-    public Compte(String numeroDeCompte, int soldeDuCompte) {
+    public Compte(String numeroDeCompte, double soldeDuCompte) {
         this.numeroDeCompte = numeroDeCompte; // j'appelle la variable numeroDeCompte qui est égale à la variable numeroDeCompte
         this.soldeDuCompte = soldeDuCompte; // j'appelle la variable soldeDuCompte qui est égale à la variable soldeDuCompte
     }
@@ -15,7 +15,7 @@ public class Compte {
     // Je crée la méthode toString() pour l'affichage
     @Override
     public String toString() {
-        return "Compte N° " + this.numeroDeCompte + " - Solde: " + this.soldeDuCompte + "€";
+        return "Compte N° " + this.numeroDeCompte + " - Solde actuel : " + this.soldeDuCompte + "€";
     }
 
     // Mes GETTERS et SETTERS
@@ -31,12 +31,12 @@ public class Compte {
     }
 
     // Je récupère le soldeDuCompte
-    public int getSoldeDuCompte() {
+    public double getSoldeDuCompte() {
         return soldeDuCompte;
     }
 
     // Je modifie le soldeDuCompte
-    public void setSoldeDuCompte(int soldeDuCompte) {
+    public void setSoldeDuCompte(double soldeDuCompte) {
         this.soldeDuCompte = soldeDuCompte;
     }
 }
