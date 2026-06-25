@@ -6,10 +6,10 @@ public class TestOperation {
     public static void main(String[] args) {
         // Je déclare et j'initialise un tableau qui contient un mélange de crédits et de débits
         Operation[] tableauOperation = {
-                new Credit("01/03/2026", 3000),
-                new Debit("15/06/2025", 4500),
-                new Credit("07/07/2026", 4000),
-                new Debit("22/08/2026", 3500)
+                new Credit("01/03/2026", 3000.00),
+                new Debit("15/06/2025", 4500.00),
+                new Credit("07/07/2026", 4000.00),
+                new Debit("22/08/2026", 3500.00)
         };
         // J'initialise ma variable pour calculer le solde final (Je pars de 1 €)
         double montantGlobal = 1;
