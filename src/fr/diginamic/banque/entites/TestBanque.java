@@ -1,7 +1,7 @@
 package fr.diginamic.banque;
+import fr.diginamic.banque.entites.Compte;
 
 // j'importe la classe Compte par elle se trouve dans l'autre fichier (Compte.java)
-import fr.diginamic.banque.Compte;
 
 public class TestBanque {
     public static void main(String[] args) {
